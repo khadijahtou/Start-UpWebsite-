@@ -1,20 +1,21 @@
 import React from "react";
-import Home from "./components/home";
-import Portfolio from "./components/portfolio";
-import Service from "./components/services";
-import Logo from "./assets/logo.svg";
-import { Link } from "react-router-dom";	
+import Logo from "../assets/logo.svg";
+import { Link } from "react-router-dom";
+import "./nav.css"; // Assuming you have a CSS file for styling
 const Navbar = () => {
 	return (
 		<nav className="navbar">
 			<div className="content">
+				<div className="companyLogo">
+					{ <img src={Logo} alt="logo" /> }
 				<h1>Start</h1>
-				<img src={Logo} alt="logo" />
+				</div>
+				
 				<ul>
 					<Link to="/">Home</Link>
 					<Link to="':/">Portfolio</Link>
 					<Link to="">Service</Link>
-					<Link to="">contactus</Link>
+					<Link to="">ContactUs</Link>
 				</ul>
 			</div>
 		</nav>

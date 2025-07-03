@@ -1,14 +1,26 @@
 import "./App.css";
-// import { BrowserRouter as Route, Switch } from "react-router-dom";
-// import Navbar from './components/nav';
-// import Home from './components/home/';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Home from "./pages/Home";
+import ContactUs from "./pages/ContactUs";
+import MainLayout from "./layouts/MainLayout";
+const router = createBrowserRouter([
+	{
+		path: "/",
+		element: <MainLayout />,
+		children: [
+			{
+				index: true,
+				element: <Home />,
+			},
+			{
+				path: "contactus",
+				element: <ContactUs />
+			},
+		],
+	},
+]);
 function App() {
-	return (
-			<div>
-				<p>Banana</p>
-			
-			</div>
-	);
+	return <RouterProvider router={router} />;
 }
 
 export default App;
