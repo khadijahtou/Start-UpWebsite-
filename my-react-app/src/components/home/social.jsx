@@ -1,13 +1,21 @@
-import "./socials.css"
+import React from "react";
+import "./social.css"
+import socialImage from "../../assets/home/social-image.svg"
 const  Socials = () => {
     return ( 
-        <div className="content">
-            <img src="Interactions" alt="" srcset="" />
-            <div className="text">
-                <h2>Lorem ipsum dolor sit amet consectetur.</h2>
-                <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident minus voluptatibus sint obcaecati veritatis quaerat dolorem nostrum, itaque voluptatum laborum consequatur ipsam facere eligendi possimus deleniti.</h3>
-                <button>Learn More</button>
+        <div className="socialcontent">
+            <img src ={socialImage} alt="" srcset="" /> 
+            <div className="socialtext">
+                <h2 className="socialsubheader">Lorem ipsum dolor sit amet consectetur.</h2>
+                <h3 className="socialbody">Lorem ipsum dolor, sit amet consectetur
+                     adipisicing elit. Provident minus voluptatibus 
+                     sint obcaecati veritatis quaerat dolorem nostrum, 
+                     itaque voluptatum laborum consequatur ipsam facere 
+                     eligendi possimus deleniti.</h3>
+                 
+                <button className="socialbutton">Learn More</button>
             </div>
+            
         </div>
      );
 }

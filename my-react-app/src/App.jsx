@@ -16,6 +16,14 @@ const router = createBrowserRouter([
 				path: "contactus",
 				element: <ContactUs />
 			},
+			// {
+			// 	path:"portfolio",
+			// 	element: <Portfolio />
+			// },
+			// {
+			// 	path:"services",
+			// 	element: <Services />
+			// }
 		],
 	},
 ]);

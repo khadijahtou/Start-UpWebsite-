@@ -1,0 +1,37 @@
+.socialcontent{
+    align-content: center;
+    margin:20PX 60.12PX 20PX 60.12PX;
+}
+.socialtext{
+     display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.socialsubheader{
+    font-family: Crimson Text;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    text-align: left;
+    line-height: 125%;
+    letter-spacing: 0px;
+
+}
+.socialbody{
+    font-family: Work Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 15px;
+text-align: left;
+line-height: 125%;
+letter-spacing: 0px;
+
+}
+.socialbutton{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width:170px;
+    height: 45px;
+}

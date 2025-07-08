@@ -3,9 +3,9 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
+  /* color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #74c79e; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,7 +16,7 @@
 a {
   font-weight: 500;
   color: #646cff;
-  text-decoration: inherit;
+  /* text-decoration: inherit; */
 }
 a:hover {
   color: #535bf2;
@@ -26,11 +26,10 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  width: 100%;
 }
 
-h1 {
+/* h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
@@ -65,4 +64,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */

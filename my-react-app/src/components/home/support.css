@@ -1,0 +1,35 @@
+.support-conten{
+    align-items: center;
+    margin-top:20px 60.12px 20px 60.12px;
+}
+
+.supportText{
+display: flex;
+flex-direction: column;
+gap: 16px;
+text-align: left;
+}
+.supportsubheader{
+    font-family: Crimson Text;
+font-weight: 700;
+font-style: Bold;
+font-size: 24px;
+letter-spacing: 0px;
+
+}
+.supportbody{
+    font-family: Work Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 15px;
+letter-spacing: 0px;
+
+}
+.supportbutton{
+     background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width:170px;
+    height: 45px;
+}
