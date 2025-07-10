@@ -1,0 +1,25 @@
+.workheader{
+    font-family: Work Sans;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #74C69D;
+
+}
+.worktitle{
+    font-family: Crimson Text;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    text-align: center;
+
+}
+.worktext{
+    font-family: Work Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    text-align: center;
+}
