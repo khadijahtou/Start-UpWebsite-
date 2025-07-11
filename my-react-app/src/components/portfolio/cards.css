@@ -1,0 +1,31 @@
+.card img{
+width: 335px;
+height: 202.20721435546875px;
+border: 1px solid black;
+border-radius: 5px;
+
+}
+.card{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 55px;
+top: 316px;
+left: 20px;
+
+}
+@media screen and (max-width: 768px) {
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+    .card {
+        /* display: grid;
+		grid-template-columns: repeat(1, minmax(0, 1fr)); */
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+}

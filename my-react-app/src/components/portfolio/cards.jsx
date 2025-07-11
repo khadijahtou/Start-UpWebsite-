@@ -12,7 +12,7 @@ import virtualRiality from '../../assets/portfolio/V-R.png'
 
 function Cards() {
     return (
-        <div>
+        
         <div className="card">
         <img src={landingPage} alt="" srcset="" />
         <img src={webDesign} alt="" srcset="" />
@@ -23,7 +23,7 @@ function Cards() {
         <img src={Halloween} alt="" srcset="" />
         <img src={virtualRiality} alt="" srcset="" />
         </div>
-        </div>
+        
     )
 }
 

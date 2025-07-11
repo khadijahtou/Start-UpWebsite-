@@ -14,8 +14,12 @@
 
 
 .welcomeImage{
+    display: flex;
+    width: 100%;
+    /* height: fit-content; */
     align-content: center;
     bottom:30px;
+    padding: 20px 30px 20px 32px;
 }
 .h2{
     font-family: Work Sans;

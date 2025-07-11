@@ -26,3 +26,18 @@
 
 
 }
+@media screen and (min-width: 768px) {
+    .footerContent{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 20px;
+    }
+    .footericons{
+        margin-top: 0;
+    }
+    .footertext{
+        font-size: 16px;
+    }
+    
+}

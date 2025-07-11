@@ -1,10 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Contact from '../components/contactUs/contact'
+import Form from '../components/contactUs/form'
 
 function ContactUs() {
   return (
     <div>
-      <p>contact us</p>
+      <Contact ></Contact>
+      <Form ></Form>
     </div>
   )
 }

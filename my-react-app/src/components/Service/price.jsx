@@ -5,7 +5,7 @@ import Tick from '../../assets/tick.svg' // Assuming you have a tick image in as
 function Price() {
   return (
     <div className='pricecontent'>
-        <div className="basic">
+        <div className="package">
             <div className="pricetags">
                 <h2 className="title">Basic</h2>
                 <h3 className="cost">$100 <span>/month</span> </h3>
@@ -31,9 +31,9 @@ function Price() {
                         <p>Lorem ipsum, dolor sit</p> 
                         </ul>
                 </div>
-                <button>Learn More</button>
+                <button className='learnmore'>Learn More</button>
         </div>
-        <div className="plus">
+        <div className="package">
             <div className="pricetags">
                 <h2 className="title">Plus</h2>
                 <h3 className="cost">$250 <span>/month</span> </h3>
@@ -63,9 +63,9 @@ function Price() {
                     
                 
                 </div>
-                <button>Learn More</button>
+                <button className='learnmore'>Learn More</button>
         </div>
-        <div className="pro">
+        <div className="package">
             <div className="pricetags">
                 <h2 className="title">Pro</h2>
                 <h3 className="cost">$400 <span>/month</span> </h3>
@@ -93,7 +93,7 @@ function Price() {
                         </ul>
                 </div>
                 
-                <button>Learn More</button>
+                <button className='learnmore'>Learn More</button>
         </div>
     </div>
 )
