@@ -13,7 +13,7 @@ function Price() {
                     consectetur adipisicing elit. Suscipit 
                     nemo hic quos, ab, dolor aperiam</p> 
             </div>
-                <div  className="list">
+                <div  className="pricelist">
                         <ul className="item">
                         <img src={Tick} alt="tick" srcset="" />
                         <p>Lorem ipsum, dolor sit</p> 

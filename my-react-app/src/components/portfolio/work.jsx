@@ -6,7 +6,9 @@ function Work() {
     <div className='workcontent'>
         <h2 className='workheader'>works</h2>
         <h3 className='worktitle'>Portfolio</h3>
-        <h4 className='worktext'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+        <p className='worktext'>Lorem ipsum dolor sit amet 
+            consectetur 
+            adipisicing elit.</p>
     </div>
     )
 }

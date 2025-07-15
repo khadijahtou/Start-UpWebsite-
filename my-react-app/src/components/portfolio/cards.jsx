@@ -12,8 +12,8 @@ import virtualRiality from '../../assets/portfolio/V-R.png'
 
 function Cards() {
     return (
-        
-        <div className="card">
+        <div className="cardcontent">
+    <div className="card">
         <img src={landingPage} alt="" srcset="" />
         <img src={webDesign} alt="" srcset="" />
         <img src={Rocket} alt="" srcset="" />
@@ -23,6 +23,9 @@ function Cards() {
         <img src={Halloween} alt="" srcset="" />
         <img src={virtualRiality} alt="" srcset="" />
         </div>
+        <button>Learn more</button>
+        </div>
+    
         
     )
 }

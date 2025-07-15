@@ -1,8 +1,4 @@
-*{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
-}     
+    
 .patnercontent{
     display: flex;
     flex-direction: column;
@@ -21,18 +17,18 @@
     color: black;
     gap:16px;
 }
-.patnerheader{
+.patnertext h2{
+    font-family: Work Sans;
+    font-style: Bold;
     font-size: 16px;
     font-weight: 600;
     color: #74C69D;
-    font-family: Work Sans;
-    font-style: Bold;
     letter-spacing: 5px;
     text-align: center;
     text-transform: uppercase;
 
 }
-.patnerSubheader{
+.patnertext h3{
     font-family: Crimson Text;
     font-style: Bold;
     font-size: 24px;
@@ -41,7 +37,7 @@
     text-align: center;
 
 }
-.patnerBody{
+.patnercontent{
     font-family: Work Sans;
     font-style: Regular;
     font-size: 20px;
@@ -51,7 +47,6 @@
 
 }
 .patner-images{
-    width: 200;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -60,12 +55,39 @@
 .patnerlearnMore{
     align-items: center;
     width: 170px;
-height: 45px;
-background-color: black;
-color: white;
-margin-top:55px;
-border-radius:5px;
-border: none;
+    height: 45px;
+    background-color: black;
+    color: white;
+    margin-top:55px;
+    border-radius:5px;
+    border: none;
 
 }
-
+@media screen and (min-width: 768px) {
+    .patnercontent {
+        padding: 1rem;
+    }
+    .patnertext {
+        padding: 1rem;
+    }
+    .patnerheader {
+        font-size: 14px;
+    }
+    .patnerSubheader {
+        font-size: 20px;
+    }
+    .patnerbody {
+        font-size: 16px;
+    }
+    .patner-images {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        gap: 20px;
+    }
+    .patnerlearnMore {
+        width: 150px;
+        height: 40px;
+    }
+    
+}

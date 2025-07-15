@@ -10,10 +10,10 @@ const Patner = () => {
     return (  
         <div className="patnercontent">
             <div className="patnertext">
-                <h3 className="patnerheader">PATNERS</h3>
-                <h2 className="patnerSubheader">Lorem, ipsum dolor.</h2>
-                <h4 className="patnerBody">Lorem ipsum, dolor sit amet consectetur
-                    adipisicing elit..</h4>
+                <h2 className="patnerheader">PATNERS</h2>
+                <h3 className="patnerSubheader">Lorem, ipsum dolor.</h3>
+                <p className="patnerBody">Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit.</p>
 
             </div>
              <div className="patner-images">
