@@ -8,6 +8,14 @@ span{
 	letter-spacing: 0px;
 
 }
+.pricetags {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	gap: 16px;
+
+
+}
 .package {
 	margin: 18px 46px 18px 50px;
 	padding: 30px 46px;
@@ -44,11 +52,16 @@ span{
 }
 @media screen and (min-width: 768px) {
 	.pricecontent {
+		display: flex;
 		flex-direction: row;
-		gap: 10px;
+		gap: 5px;
 	}
-	.package {
-		width: 300px;
+	.pricecontent h3{
+		font-size: 40px;
 	}
-	
+	.pricecontent p{
+		font-size: 20px;
+	}
+
+
 }
