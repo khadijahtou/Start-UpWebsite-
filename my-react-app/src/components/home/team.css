@@ -37,6 +37,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    box-shadow: 3px 4px 12px 1px #00000040;
     border: white 1px solid;
     padding: 25px 19px;
     color: black;

@@ -3,7 +3,7 @@ import './price.css'
 import Tick from '../../assets/tick.svg' // Assuming you have a tick image in assets
 
 function Price() {
-  return (
+    return (
     <div className='pricecontent'>
         <div className="package">
             <div className="pricetags">

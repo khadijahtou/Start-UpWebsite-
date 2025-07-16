@@ -1,18 +1,31 @@
-
-span{
+.pricecontent h2{
 	font-family: Work Sans;
 	font-weight: 400;
 	font-style: Regular;
 	font-size: 15px;
-	line-height: 125%;
 	letter-spacing: 0px;
 
+}
+span {
+	font-family: Work Sans;
+	font-weight: 400;
+	font-style: Regular;
+	font-size: 15px;
+	letter-spacing: 0px;
 }
 .pricetags {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	gap: 16px;
+}
+.pricetags p{
+font-family: Work Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 15px;
+letter-spacing: 0px;
+text-align: center;
 
 
 }
@@ -25,6 +38,7 @@ span{
 	gap: 20px;
 	border: 1px solid #ccc;
 	border-radius: 5px;
+	box-shadow: 3px 4px 12px 1px #00000040;
 }
 .learnmore {
 	background-color: black;
@@ -38,17 +52,16 @@ span{
 	margin-bottom: 10px;
 	align-self: center;
 	border: none;
-    border-radius: 5px;
-    width:170px;
-    height: 45px;
+	border-radius: 5px;
+	width: 170px;
+	height: 45px;
 }
-.pricelist ul{
+.pricelist ul {
 	display: flex;
 	flex-direction: row;
 	align-content: left;
 	justify-content: left;
 	gap: 10px;
-
 }
 @media screen and (min-width: 768px) {
 	.pricecontent {
@@ -56,12 +69,13 @@ span{
 		flex-direction: row;
 		gap: 5px;
 	}
-	.pricecontent h3{
+	.pricetags h2{
+		font-size: 15px;
+	}
+	.pricetags h3 {
 		font-size: 40px;
 	}
-	.pricecontent p{
+	.pricetags p {
 		font-size: 20px;
 	}
-
-
 }
