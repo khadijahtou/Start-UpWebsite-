@@ -4,8 +4,34 @@
     padding: 20px;
     align-items: center;
 }
+
+.group form {
+    width: 100%;
+}
+
+.google-map {
+    height: 50vh;
+    width: 100%;
+}
  @media screen and (min-width: 768px){
     .group{
         flex-direction: row;
+    }
+
+    .google-map {
+        height: 350px;
+        width: 100%;
+    }
+ }
+
+ 
+ @media screen and (min-width: 1024px){
+    .group{
+        flex-direction: row;
+    }
+
+    .google-map {
+        height: 500px;
+        width: 100%;
     }
  }

@@ -10,8 +10,10 @@ function ContactUs() {
     <div>
       <Contact ></Contact>
       <div className="group">
-      <Form ></Form>
-      <GoogleMap ></GoogleMap>
+        <Form ></Form>
+        <div className="google-map">
+          <GoogleMap ></GoogleMap>
+        </div>
       </div>
     </div>
   )
