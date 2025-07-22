@@ -1,0 +1,93 @@
+    
+.patnercontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: white;
+}
+.patnertext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    color: black;
+    gap:16px;
+}
+.patnertext h2{
+    font-family: Work Sans;
+    font-style: Bold;
+    font-size: 16px;
+    font-weight: 600;
+    color: #74C69D;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.patnertext h3{
+    font-family: Crimson Text;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+.patnercontent{
+    font-family: Work Sans;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+.patner-images{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+.patnerlearnMore{
+    align-items: center;
+    width: 170px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    margin-top:55px;
+    border-radius:5px;
+    border: none;
+
+}
+@media screen and (min-width: 768px) {
+    .patnercontent {
+        padding: 1rem;
+    }
+    .patnertext {
+        padding: 1rem;
+    }
+    .patnerheader {
+        font-size: 14px;
+    }
+    .patnerSubheader {
+        font-size: 20px;
+    }
+    .patnerbody {
+        font-size: 16px;
+    }
+    .patner-images {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        gap: 20px;
+    }
+    .patnerlearnMore {
+        width: 150px;
+        height: 40px;
+    }
+    
+}

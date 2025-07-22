@@ -1,0 +1,76 @@
+
+.welcome-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #74C69D;
+    color: WHITE;
+    gap: 20px;
+    padding: 32px 20px;
+}
+
+
+.welcome-image{
+    width: 100%;
+    height:auto; 
+	object-fit: cover;
+
+}
+.welcome-content-text {
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	align-items: start;
+}
+.welcome-content-text h2 {
+    font-family: Work Sans;
+    font-style: Bold;
+    font-size: 1rem;
+
+}
+.welcome-content-text h3 {
+	font-family: 'Crimson Text';
+	font-weight: 700;
+	font-style: Bold;
+	font-size: 1.75rem;
+}
+.welcome-content-text p {
+	font-style: Regular;
+	font-size: 1rem;
+	font-weight: 400;
+	opacity: 0.75;
+}
+.explore {
+	font-size: 20px;
+	text-align: center;
+	background-color: white;
+	padding: 13px 48px;
+	border-radius: 5px;
+	margin-top: 10px;
+	border: none;
+}
+
+@media screen and (min-width: 768px) {
+    .welcome-content {
+        display: flex;
+        flex-direction: row-reverse;
+		padding: 40px;
+
+    }
+    .welcome-Image {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        /* margin: 130px 40px  179.72px 89.28px; */
+    }
+    .welcome-content-text {
+		width: 60%;
+	}
+	.welcome-content-text h3 {
+		font-size: 2rem;
+	}   
+    
+}

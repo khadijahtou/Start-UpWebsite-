@@ -1,0 +1,71 @@
+.footerContent{
+    background-color: #74C69D;
+    align-content: center;
+    justify-content: space-between;
+}
+.footericons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 31px;
+}
+.footericons img{
+    width: 30px;
+    height: 30px;
+}
+/* .instagram{
+    width: 18px;
+    height: 18px;
+}
+.facebook{
+    width: 9.64px;
+    height: 18px;
+}
+.twitter{
+    width: 21.87px;
+    height: 18px;
+}
+.pinterest{
+    width: 13.94px;
+    height: 18px;
+}
+.tictok{
+    width: 15.4px;
+    height: 18px;
+}
+.whatsapp{
+    width: 17.96px;
+    height: 18px;
+}
+.youtube{
+    width: 25.17px;
+    height: 18px;
+} */
+.footertext{
+    font-family: Work Sans;
+    font-style: Regular;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    
+    
+
+
+}
+@media screen and (min-width: 768px) {
+    .footerContent{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 20px;
+    }
+    .footericons{
+        margin-top: 0;
+    }
+    .footertext{
+        font-size: 16px;
+    }
+    
+}
